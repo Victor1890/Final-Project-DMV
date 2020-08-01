@@ -1,18 +1,22 @@
-﻿a.navbar-brand {
-  white-space: normal;
+﻿.btn-circle {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 10px 0px;
+  border-radius: 15px;
   text-align: center;
-  word-break: break-all;
+  font-size: 20px;
+  line-height: 1.42857;
 }
-
-html {
-  font-size: 14px;
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
 }
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.fa-shopping-cart{
+  padding-right: 7px;
 }

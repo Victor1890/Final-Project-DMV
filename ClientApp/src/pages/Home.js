@@ -7,9 +7,9 @@ export default function Home(){
         <header className="masthead" style={{backgroundImage: `url("${require(`../assets/img/header-bg1.jpg`)}")`}}>
             <div className="container">
                 <div className="intro-text">
-                    <div className="intro-lead-in">Welcome To Our Studio!</div>
-                    <div className="intro-heading text-uppercase">It's Nice To Meet You</div>
-                    <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+                    <div className="intro-lead-in">Bienvenido a nuestra Tienda</div>
+                    <div className="intro-heading text-uppercase">DMV</div>
+                    <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Ver más</a>
                 </div>
             </div>
         </header>
