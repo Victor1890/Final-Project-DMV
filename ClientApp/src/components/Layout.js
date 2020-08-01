@@ -1,14 +1,14 @@
-import React from 'react';
-import Footer from './Footer';
-import { NavMenu } from './NavMenu';
+import React from "react";
+//import Footer from "./Footer";
+import { NavMenu } from "./NavMenu";
 
-export function Layout ({children}) {
-
-    return (
+export function Layout({ children }) {
+  return (
+    <>
+      <NavMenu />
       <>
-        <NavMenu />
         {children}
-        <Footer/>
       </>
-    );
+    </>
+  );
 }
