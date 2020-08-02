@@ -1,5 +1,6 @@
 import React from "react";
 import Contact from "./Contact";
+import { Products } from "./Produts/Products";
 
 export default function Home() {
   return (
@@ -74,6 +75,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      <Products/>
 
       <section className="bg-light page-section" id="team">
         <div className="container">
