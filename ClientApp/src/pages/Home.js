@@ -7,16 +7,16 @@ export default function Home() {
       <header
         className="masthead"
         style={{
-          backgroundImage: `url("${require(`../assets/img/header-bg1.jpg`)}")`,
+          backgroundImage: `url("https://cdn.cnn.com/cnnnext/dam/assets/180912110827-grocery-store-produce-file-full-169.jpg")`,
         }}
       >
         <div className="container">
-          <div className="intro-text">
+          <div className="intro-text ">
             <div className="intro-lead-in">Bienvenido a nuestra Tienda</div>
             <div className="intro-heading text-uppercase">DMV</div>
             <a
               className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-              href="#services"
+              href="/Db/Test"
             >
               Ver más
             </a>
