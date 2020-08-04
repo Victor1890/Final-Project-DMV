@@ -21,7 +21,7 @@ export function NavMenu () {
               <Link className="nav-link js-scroll-trigger" to='/'>Inicio</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger">Compras</Link>
+              <Link className="nav-link js-scroll-trigger" to='/Products'>Productos</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" to='/About'>Sobre Nosotros</Link>
