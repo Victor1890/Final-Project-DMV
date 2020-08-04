@@ -2,7 +2,7 @@ import React from 'react';
 
 export function CircleButton({classnameIcon,classnameButton, onClick}){
     return(
-        <button type='button' className={classnameButton} onClick={onClick}>
+        <button type='button' className={classnameButton} onClick={onClick} >
             <i className={classnameIcon}></i>
         </button>
     );

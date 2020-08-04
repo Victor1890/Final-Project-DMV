@@ -9,7 +9,7 @@ namespace Final.Controllers
 {
     public class DbController : Controller{
         public IActionResult Test(){
-                Console.WriteLine("Prueba webon");
+                Console.WriteLine("prueba");
                 return Redirect("/");
         }
     }

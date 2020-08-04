@@ -36,7 +36,7 @@ export function NavMenu () {
               </Link>
             </li>
             <li className="nav-item">
-              <CircleButton classnameIcon='fa fa-user' classnameButton='nav-link js-scroll-trigger btn btn-circle'></CircleButton>
+            <a href='/Login'><CircleButton classnameIcon='fa fa-user' classnameButton='nav-link js-scroll-trigger btn btn-circle'></CircleButton></a>
             </li>
           </ul>
         </div>
