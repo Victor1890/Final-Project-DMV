@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import Login from './pages/Login_&_Register/Login';
 import Register from './pages/Login_&_Register/Register';
 import About from './pages/About';
-import {Products} from './pages/Produts/Products';
+import Contact from './pages/Contact';
 
 import './App.css'
 
@@ -20,8 +20,7 @@ export default class App extends Component {
         <Route path='/Login' component={Login}/>
         <Route path='/Register' component={Register}/>
         <Route path='/About' component={About}/>
-        <Route path='/Contactos' component={Contact}/>
-        <Route path='/Products' component={Products}/>
+        <Route path='/Contact' component={Contact}/>
       </Layout>
     );
   }

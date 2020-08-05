@@ -1,6 +1,7 @@
 import React from "react";
 import Contact from "./Contact";
-import { Products } from "./Produts/Products";
+import Team from "./Team/Team";
+import Item_Products from "../components/Produts";
 
 export default function Home() {
   return (
@@ -23,111 +24,69 @@ export default function Home() {
           </div>
         </div>
       </header>
-      
-      <Products/>
 
-      <section className="bg-light page-section" id="team">
+      <section className="page-section" id="services">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <h2 className="section-heading text-uppercase">
-                Nuestro Equipo!
-              </h2>
+              <h2 className="section-heading text-uppercase">Services</h2>
               <h3 className="section-subheading text-muted">
-                Quienes conforman esta gran familia
+                La mejor experiencia para nuestros clientes.
               </h3>
             </div>
           </div>
-          <div className="row">
-            <div className="col-sm-4">
-              <div className="team-member">
-                <img
-                  className="mx-auto rounded-circle"
-                  src="img/team/1.jpg"
-                  alt=""
-                />
-                <h4>Victor Rosario</h4>
-                <p className="text-muted">Diseñador y Especialista en Ventas</p>
-                <ul className="list-inline social-buttons">
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-github-alt"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+          <div className="row text-center">
+            <div className="col-md-4">
+              <span className="fa-stack fa-4x">
+                <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              </span>
+              <h4 className="service-heading">Responsabilidad</h4>
+              <p className="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                maxime quam architecto quo inventore harum ex magni, dicta
+                impedit.
+              </p>
             </div>
-            <div className="col-sm-4">
-              <div className="team-member">
-                <img
-                  className="mx-auto rounded-circle"
-                  src="img/team/2.jpg"
-                  alt=""
-                />
-                <h4>Michael Mateo</h4>
-                <p className="text-muted">Experto Backend y director de Marketing</p>
-                <ul className="list-inline social-buttons">
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-github-alt"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+            <div className="col-md-4">
+              <span className="fa-stack fa-4x">
+                <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
+              </span>
+              <h4 className="service-heading">Excelente Productos</h4>
+              <p className="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                maxime quam architecto quo inventore harum ex magni, dicta
+                impedit.
+              </p>
             </div>
-            <div className="col-sm-4">
-              <div className="team-member">
-                <img
-                  className="mx-auto rounded-circle"
-                  src="img/team/3.jpg"
-                  alt=""
-                />
-                <h4>David Rosario</h4>
-                <p className="text-muted">Director de Producción y manejo de equipos</p>
-                <ul className="list-inline social-buttons">
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-github-alt"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+            <div className="col-md-4">
+              <span className="fa-stack fa-4x">
+                <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
+              </span>
+              <h4 className="service-heading">Amabilidad</h4>
+              <p className="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                maxime quam architecto quo inventore harum ex magni, dicta
+                impedit.
+              </p>
             </div>
           </div>
         </div>
       </section>
+      
+      <div className="container">
+        <div className='row text-center'>
+          <Item_Products/>
+          <Item_Products/>
+          <Item_Products/>
+        </div>
+      </div>
 
-      <section className="py-5">
+      <Team/>
+
+      {/* <section className="py-5">
         <div className="container">
           <div className="row">
             <div className="col-md-3 col-sm-6">
@@ -168,7 +127,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Contact/>
     </div>

@@ -27,10 +27,10 @@ export function NavMenu () {
               <Link className="nav-link js-scroll-trigger" to='/About'>Sobre Nosotros</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" to='/Contactos'>Contactos</Link>
+              <Link to='/Contact' className="nav-link js-scroll-trigger">Contactos</Link>
             </li>
             <li className="nav-item cta cta-colored">
-              <Link  className="nav-link">
+              <Link to='' className="nav-link">
                 <i className="fa fa-shopping-cart"></i>
                 [0]
               </Link>

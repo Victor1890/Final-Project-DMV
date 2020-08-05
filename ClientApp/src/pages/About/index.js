@@ -1,4 +1,5 @@
 import React from "react";
+import Team from "../Team/Team";
 
 export default function () {
   return (
@@ -124,6 +125,8 @@ export default function () {
           </div>
         </div>
       </section>
+
+      <Team/>
     </>
   );
 }
