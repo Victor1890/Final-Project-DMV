@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace Final.Models
 {
-    public class Products
+    public class User
     {
         [Key]
         public int ID { get; set; }
 
-        public string Nombre_Produts { get; set; }
-
-        public double Precio_Produts { get; set; }
-
-        public int Num_Products { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
     }
 }
