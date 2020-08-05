@@ -4,9 +4,10 @@ import { Button } from "../../components/Button";
 
 export default function Login() {
   return (
+    
     <div className="auth-wrapper" style={{backgroundImage: `url(${require('../../assets/img/bg-login.jpg')})`}}>
       <div className="auth-inner">
-        <form>
+        <form action="POST">
           <h3>Iniciar Sesión</h3>
 
           <div className="form-group">

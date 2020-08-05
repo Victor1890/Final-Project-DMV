@@ -1,7 +1,6 @@
 import React from "react";
 import Contact from "./Contact";
 import Team from "./Team/Team";
-import Item_Products from "../components/Produts";
 
 export default function Home() {
   return (
@@ -76,14 +75,6 @@ export default function Home() {
         </div>
       </section>
       
-      <div className="container">
-        <div className='row text-center'>
-          <Item_Products/>
-          <Item_Products/>
-          <Item_Products/>
-        </div>
-      </div>
-
       <Team/>
 
       {/* <section className="py-5">

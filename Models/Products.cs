@@ -14,7 +14,9 @@ namespace Final.Models
         public string Nombre_Produts { get; set; }
 
         public double Precio_Produts { get; set; }
-
-        public int Num_Products { get; set; }
+        public string Imagen_Produts {get; set;}
+        public int Num_Produts { get; set; }
+       
+        public string Cat_Produts{get; set;}
     }
 }

@@ -13,7 +13,6 @@ export default function Products() {
     })
     .catch(err => console.log(err));
   },[dataProducts]);
-
   return (
     <>
       <div className="container">
@@ -22,7 +21,8 @@ export default function Products() {
             <Item_Products 
               title={e.nombre_Produts} 
               prices={e.precio_Produts} 
-              disponible={e.num_Products}/>
+              disponible={e.num_Produts}
+              imageurl={e.imagen_Produts}/>
           </div>)}
         </div>
       </div>
