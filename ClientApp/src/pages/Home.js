@@ -17,7 +17,6 @@ export default function Home() {
             <div className="intro-heading text-uppercase">DMV</div>
             <a
               className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-              href="/Db/Test"
             >
               Ver más
             </a>
@@ -83,10 +82,10 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-12 text-center">
               <h2 className="section-heading text-uppercase">
-                Our Amazing Team
+                Nuestro Equipo!
               </h2>
               <h3 className="section-subheading text-muted">
-                Lorem ipsum dolor sit amet consectetur.
+                Quienes conforman esta gran familia
               </h3>
             </div>
           </div>
@@ -98,8 +97,8 @@ export default function Home() {
                   src="img/team/1.jpg"
                   alt=""
                 />
-                <h4>Kay Garland</h4>
-                <p className="text-muted">Lead Designer</p>
+                <h4>Victor Rosario</h4>
+                <p className="text-muted">Diseñador y Especialista en Ventas</p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
                     <a href="#something">
@@ -113,7 +112,7 @@ export default function Home() {
                   </li>
                   <li className="list-inline-item">
                     <a href="#something">
-                      <i className="fa fa-linkedin-in"></i>
+                      <i className="fa fa-github-alt"></i>
                     </a>
                   </li>
                 </ul>
@@ -126,8 +125,8 @@ export default function Home() {
                   src="img/team/2.jpg"
                   alt=""
                 />
-                <h4>Larry Parker</h4>
-                <p className="text-muted">Lead Marketer</p>
+                <h4>Michael Mateo</h4>
+                <p className="text-muted">Experto Backend y director de Marketing</p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
                     <a href="#something">
@@ -141,7 +140,7 @@ export default function Home() {
                   </li>
                   <li className="list-inline-item">
                     <a href="#something">
-                      <i className="fa fa-linkedin-in"></i>
+                      <i className="fa fa-github-alt"></i>
                     </a>
                   </li>
                 </ul>
@@ -154,8 +153,8 @@ export default function Home() {
                   src="img/team/3.jpg"
                   alt=""
                 />
-                <h4>Diana Pertersen</h4>
-                <p className="text-muted">Lead Developer</p>
+                <h4>David Rosario</h4>
+                <p className="text-muted">Director de Producción y manejo de equipos</p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
                     <a href="#something">
@@ -169,20 +168,11 @@ export default function Home() {
                   </li>
                   <li className="list-inline-item">
                     <a href="#something">
-                      <i className="fa fa-linkedin-in"></i>
+                      <i className="fa fa-github-alt"></i>
                     </a>
                   </li>
                 </ul>
               </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-8 mx-auto text-center">
-              <p className="large text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-                eaque, laboriosam veritatis, quos non quis ad perspiciatis,
-                totam corporis ea, alias ut unde.
-              </p>
             </div>
           </div>
         </div>

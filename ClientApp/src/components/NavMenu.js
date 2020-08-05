@@ -27,7 +27,7 @@ export function NavMenu () {
               <Link className="nav-link js-scroll-trigger" to='/About'>Sobre Nosotros</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger">Contactos</Link>
+              <Link className="nav-link js-scroll-trigger" to='/Contactos'>Contactos</Link>
             </li>
             <li className="nav-item cta cta-colored">
               <Link  className="nav-link">
@@ -35,9 +35,9 @@ export function NavMenu () {
                 [0]
               </Link>
             </li>
-            <li className="nav-item">
-            <a href='/Login'><CircleButton classnameIcon='fa fa-user' classnameButton='nav-link js-scroll-trigger btn btn-circle'></CircleButton></a>
-            </li>
+            <Link to='/Login'>
+                <CircleButton classnameIcon='fa fa-user' classnameButton='nav-link js-scroll-trigger btn btn-circle'></CircleButton>
+              </Link>
           </ul>
         </div>
       </div>
