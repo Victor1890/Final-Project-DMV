@@ -7,10 +7,7 @@ export default function Contact() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <h2 className="section-heading text-uppercase">Contact Us</h2>
-              <h3 className="section-subheading text-muted">
-                Lorem ipsum dolor sit amet consectetur.
-              </h3>
+              <h2 className="section-heading text-uppercase">Contáctanos</h2>
             </div>
           </div>
           <div className="row">
@@ -23,9 +20,9 @@ export default function Contact() {
                         className="form-control"
                         id="name"
                         type="text"
-                        placeholder="Your Name *"
-                        required="required"
-                        data-validation-required-message="Please enter your name."
+                        placeholder="Tu Nombre *"
+                        required
+                        data-validation-required-message="Por favor en ingresar su nombre."
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -34,9 +31,9 @@ export default function Contact() {
                         className="form-control"
                         id="email"
                         type="email"
-                        placeholder="Your Email *"
-                        required="required"
-                        data-validation-required-message="Please enter your email address."
+                        placeholder="Tu Email *"
+                        required
+                        data-validation-required-message="Por favor en ingresar tu correo electrónico."
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -45,8 +42,8 @@ export default function Contact() {
                         className="form-control"
                         id="phone"
                         type="tel"
-                        placeholder="Your Phone *"
-                        required="required"
+                        placeholder="Tu Teléfono *"
+                        required
                         data-validation-required-message="Please enter your phone number."
                       />
                       <p className="help-block text-danger"></p>
@@ -57,9 +54,9 @@ export default function Contact() {
                       <textarea
                         className="form-control"
                         id="message"
-                        placeholder="Your Message *"
-                        required="required"
-                        data-validation-required-message="Please enter a message."
+                        placeholder="Tu Mensaje *"
+                        required
+                        data-validation-required-message="Por favor en ingresar un mensaje."
                       ></textarea>
                       <p className="help-block text-danger"></p>
                     </div>
@@ -72,7 +69,7 @@ export default function Contact() {
                       className="btn btn-primary btn-xl text-uppercase"
                       type="submit"
                     >
-                      Send Message
+                      Enviar Mensaje
                     </button>
                   </div>
                 </div>

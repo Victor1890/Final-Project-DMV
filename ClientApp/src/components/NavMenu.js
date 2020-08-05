@@ -27,7 +27,7 @@ export function NavMenu () {
               <Link className="nav-link js-scroll-trigger" to='/About'>Sobre Nosotros</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger">Contactos</Link>
+              <Link to='/Contact' className="nav-link js-scroll-trigger">Contactos</Link>
             </li>
             <li className="nav-item cta cta-colored">
               <Link  className="nav-link">
