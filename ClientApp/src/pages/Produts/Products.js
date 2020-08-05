@@ -1,19 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from 'axios';
 import Item_Products from "../../components/Produts";
 
-fetch('/api/ApiProducts')
-.then(data => {return data.json()})
-.then(pro => {console.log(pro)});
+export default function Products() {
 
+  const [ dataProducts, setDataProducts ] = useState([]);
 
-export function Products() {
+  useEffect(() => {
+    axios.get('/api/ApiProducts')
+    .then(res =>{
+      setDataProducts(res.data);
+    })
+    .catch(err => console.log(err));
+  },[dataProducts]);
+
   return (
     <>
       <div className="container">
         <div className='row text-center'>
-          <Item_Products/>
-          <Item_Products/>
-          <Item_Products/>
+          {dataProducts.map(e => <div key={e.id}>
+            <Item_Products 
+              title={e.nombre_Produts} 
+              prices={e.precio_Produts} 
+              disponible={e.num_Products}/>
+          </div>)}
         </div>
       </div>
     </>
