@@ -1,12 +1,13 @@
 import React from "react";
 
-export default function Item_Products({title, prices, disponible}) {
+export default function Item_Products({title, prices, disponible, imageurl}) {
   return (
     <>
       <div className="col-md-4">
         <img
           className="img-fluid img-thumbnail"
-          src={require("../../assets/img/bg-login.jpg")}
+          src={imageurl}
+          height={50}
         />
         <h2 className='card-title'>
           {title}

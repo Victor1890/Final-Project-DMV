@@ -1,8 +1,7 @@
 import React from "react";
 import Contact from "./Contact";
 import Team from "./Team/Team";
-import Item_Products from "../components/Produts";
-
+import {Slider} from "./../components/Slider/index";
 export default function Home() {
   return (
     <div className="App">
@@ -24,7 +23,7 @@ export default function Home() {
           </div>
         </div>
       </header>
-
+        <Slider/>
       <section className="page-section" id="services">
         <div className="container">
           <div className="row">
@@ -76,14 +75,6 @@ export default function Home() {
         </div>
       </section>
       
-      <div className="container">
-        <div className='row text-center'>
-          <Item_Products/>
-          <Item_Products/>
-          <Item_Products/>
-        </div>
-      </div>
-
       <Team/>
 
       {/* <section className="py-5">

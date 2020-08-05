@@ -8,9 +8,9 @@ export default function () {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <h2 className="section-heading text-uppercase">About</h2>
+              <h2 className="section-heading text-uppercase">Quienes Somos</h2>
               <h3 className="section-subheading text-muted">
-                Lorem ipsum dolor sit amet consectetur.
+                Nuestra Historia
               </h3>
             </div>
           </div>
@@ -27,15 +27,12 @@ export default function () {
                   </div>
                   <div className="timeline-panel">
                     <div className="timeline-heading">
-                      <h4>2009-2011</h4>
-                      <h4 className="subheading">Our Humble Beginnings</h4>
+                      <h4 className="subheading">Nuestro Comienzo</h4>
                     </div>
                     <div className="timeline-body">
                       <p className="text-muted">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                        temporibus qui quibusdam, recusandae sit vero unde, sed,
-                        incidunt et ea quo dolore laudantium consectetur!
+                       Constrimos nuestro negocio despues de meses de trabajo forzado, arregalndo computadoras y creando paginas web
+                       todo con el objetivo de hacer un sistema diferente.
                       </p>
                     </div>
                   </div>
@@ -50,15 +47,13 @@ export default function () {
                   </div>
                   <div className="timeline-panel">
                     <div className="timeline-heading">
-                      <h4>March 2011</h4>
-                      <h4 className="subheading">An Agency is Born</h4>
+                      <h4>Marzo 2011</h4>
+                      <h4 className="subheading">Nacen la alianzas</h4>
                     </div>
                     <div className="timeline-body">
                       <p className="text-muted">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                        temporibus qui quibusdam, recusandae sit vero unde, sed,
-                        incidunt et ea quo dolore laudantium consectetur!
+                        Debido al exito que habiamos cosechado, La nacional y el ccn nos llamaron para formar 
+                        una alianza temporal que haria un antes y un despues a nuestra empresa
                       </p>
                     </div>
                   </div>
@@ -73,50 +68,27 @@ export default function () {
                   </div>
                   <div className="timeline-panel">
                     <div className="timeline-heading">
-                      <h4>December 2012</h4>
-                      <h4 className="subheading">Transition to Full Service</h4>
+                      <h4>Enero de  2020</h4>
+                      <h4 className="subheading">Covid19 ataca</h4>
                     </div>
                     <div className="timeline-body">
                       <p className="text-muted">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                        temporibus qui quibusdam, recusandae sit vero unde, sed,
-                        incidunt et ea quo dolore laudantium consectetur!
+                       Nuestra empresa crea mas exito a partir de la pandemia del Covid 19,
+                       en este momento nos enmarcamos una meta de llegar al donativo de un millon de pesos para el 
+                       desarrollo de una vacuna
                       </p>
                     </div>
                   </div>
                 </li>
-                <li className="timeline-inverted">
-                  <div className="timeline-image">
-                    <img
-                      className="rounded-circle img-fluid"
-                      src="img/about/4.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4>July 2014</h4>
-                      <h4 className="subheading">Phase Two Expansion</h4>
-                    </div>
-                    <div className="timeline-body">
-                      <p className="text-muted">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                        temporibus qui quibusdam, recusandae sit vero unde, sed,
-                        incidunt et ea quo dolore laudantium consectetur!
-                      </p>
-                    </div>
-                  </div>
-                </li>
+                
                 <li className="timeline-inverted">
                   <div className="timeline-image">
                     <h4>
-                      Be Part
+                      Se Parte
                       <br />
-                      Of Our
+                      de Nuestra
                       <br />
-                      Story!
+                      Historia!
                     </h4>
                   </div>
                 </li>
