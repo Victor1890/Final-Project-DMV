@@ -2,7 +2,7 @@ import React from 'react';
 
  export function Slider (){
     return(
-<div id="carouselExampleSlidesOnly" class="carousel slide mt-2" data-ride="carousel">
+<div id="carouselExample" class="carousel slide mt-2" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
         <img class="d-block w-100" src="https://s1.eestatic.com/2020/03/19/ciencia/nutricion/Alimentacion-Dieta-Obesidad-Coronavirus-Nutricion_475962417_148657032_1706x1280.jpg" alt="First slide"/>
@@ -14,6 +14,14 @@ import React from 'react';
       <img class="d-block w-100" src="https://www.65ymas.com/uploads/s1/19/47/57/pros-y-contras-de-hacer-la-compra-del-supermercado-por-internet.jpeg" alt="Third slide"/>
     </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
     );
