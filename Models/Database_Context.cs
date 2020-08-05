@@ -19,5 +19,6 @@ namespace Final.Models
         }
 
         public DbSet<Products> Products { get; set; }
+        public DbSet<User> Usuarios { get; set; }
     }
 }
