@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import Login from './pages/Login_&_Register/Login';
 import Register from './pages/Login_&_Register/Register';
 import About from './pages/About';
-import Contact from './pages/Contact';
+
 
 import './App.css'
 
