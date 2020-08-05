@@ -1,7 +1,7 @@
 import React from "react";
 import Contact from "./Contact";
 import Team from "./Team/Team";
-
+import {Slider} from "./../components/Slider/index";
 export default function Home() {
   return (
     <div className="App">
@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </div>
       </header>
-
+        <Slider/>
       <section className="page-section" id="services">
         <div className="container">
           <div className="row">
