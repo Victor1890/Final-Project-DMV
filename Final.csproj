@@ -33,10 +33,11 @@
     <Compile Remove="Migrations\20200802225435_InitialCreate.Designer.cs" />
     <Compile Remove="Migrations\20200804125707_InitialCreate.cs" />
     <Compile Remove="Migrations\20200804125707_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200805163008_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200805163008_InitialCreate.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Migrations\" />
     <Folder Include="Resources\Images\" />
   </ItemGroup>
 
