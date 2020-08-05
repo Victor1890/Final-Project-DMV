@@ -1,7 +1,6 @@
 import React from "react";
 import Item_Products from "../../components/Produts";
 
-
 export function Products() {
   return (
     <>
